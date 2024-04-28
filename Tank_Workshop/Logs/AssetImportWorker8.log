@@ -1,0 +1,1450 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.17f1 (396a1c6fe404) revision 3762716'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 32459 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Projet/Tank_Workshop
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+55491
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Projet/Tank_Workshop
+D:/Projet/Tank_Workshop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4520] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2523723294 [EditorId] 2523723294 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4520] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2523723294 [EditorId] 2523723294 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.17f1 (396a1c6fe404)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet/Tank_Workshop/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006284 seconds.
+- Loaded All Assemblies, in  0.523 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 843 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.239 seconds
+Domain Reload Profiling: 1760ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (974ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.985 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5765 unused Assets / (5.5 MB). Loaded Objects now: 6464.
+Memory consumption went from 174.6 MB to 169.1 MB.
+Total: 10.244400 ms (FindLiveObjects: 0.791800 ms CreateObjectMapping: 0.854300 ms MarkObjects: 5.288400 ms  DeleteObjects: 3.308600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13841.485028 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/controller_playstation2.png
+  artifactKey: Guid(9afbe4f8c47703f4897b840035f8f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/controller_playstation2.png using Guid(9afbe4f8c47703f4897b840035f8f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d15d75be950e29954643ac20adf88be') in 0.0626235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_button_create_alternative.png
+  artifactKey: Guid(581a25d0a27e3e94ea8c884318315da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_button_create_alternative.png using Guid(581a25d0a27e3e94ea8c884318315da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34dbd54b38a189b76b2e61c51f186b95') in 0.0109703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_touchpad.png
+  artifactKey: Guid(d6968cd34f9945645b584ffb07f3f1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_touchpad.png using Guid(d6968cd34f9945645b584ffb07f3f1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd489e3da6d241861dadfc699c6b3a56a') in 0.0110156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_l3_outline.png
+  artifactKey: Guid(0b8fa7a8fc6773c4fb18301249d439c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_l3_outline.png using Guid(0b8fa7a8fc6773c4fb18301249d439c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e314905358cbd19cfbc1fdada3df490b') in 0.0080486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_r3.png
+  artifactKey: Guid(394a9cc7b5c190343825a7e6648df0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_r3.png using Guid(394a9cc7b5c190343825a7e6648df0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a211db203035c44f93b056c3b10d21de') in 0.0081616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_cross_outline.png
+  artifactKey: Guid(439bde2bfd9b3284da4dbfd95f8fd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_cross_outline.png using Guid(439bde2bfd9b3284da4dbfd95f8fd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d4ba6e9fc78cce7bedd089bac8ee1a') in 0.0111152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation3_button_start_outline.png
+  artifactKey: Guid(f243e0eeabe83ce43bcd8326b39262f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation3_button_start_outline.png using Guid(f243e0eeabe83ce43bcd8326b39262f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218b75a9ebf6ebe9b74ff19bf12aeaa7') in 0.0081373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation4_touchpad_touch.png
+  artifactKey: Guid(4875559b55b5a944fb85c84a2f99b187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation4_touchpad_touch.png using Guid(4875559b55b5a944fb85c84a2f99b187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'befb7eba8e99bc3302e68d1cc44f55ca') in 0.010542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_color_cross.png
+  artifactKey: Guid(d5510c24fc7749f42a90555a39c79f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_color_cross.png using Guid(d5510c24fc7749f42a90555a39c79f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e461a329628490af238d1bb7692f9c8') in 0.0088318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation4_button_share.png
+  artifactKey: Guid(51aeccb9400072c43af0a8eb783543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation4_button_share.png using Guid(51aeccb9400072c43af0a8eb783543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0584a4e28f6e8586813994f40374c3c') in 0.0150315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_analog_outline.png
+  artifactKey: Guid(341be320db535834183dbf2682bd07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_analog_outline.png using Guid(341be320db535834183dbf2682bd07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849fabe7b0c24ec262f180fc49291c77') in 0.0073152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_touchpad_touch_outline.png
+  artifactKey: Guid(8d5a64e4f56b9264883ceb8b55b25ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation5_touchpad_touch_outline.png using Guid(8d5a64e4f56b9264883ceb8b55b25ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e2aa869624d49fa3768ace2507a7bb') in 0.0064279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397061 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_square_outline.png
+  artifactKey: Guid(7deefa41b4f139a41aa149a96f40653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_button_square_outline.png using Guid(7deefa41b4f139a41aa149a96f40653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af7b4953effc0d93495bb91c0f957d6') in 0.1083274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_down.png
+  artifactKey: Guid(66e4585cd16d5ff40bf7202899bdfd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_down.png using Guid(66e4585cd16d5ff40bf7202899bdfd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d6bc2f07d1827bc776656963799b96') in 0.0095506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_horizontal.png
+  artifactKey: Guid(d976d0e01cc5e6d4caf059799589c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_horizontal.png using Guid(d976d0e01cc5e6d4caf059799589c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a68d02ffb8dfe9e3a1dc6bd5b2efe5ae') in 0.0091025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.073255 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_right.png
+  artifactKey: Guid(77bdf1e1045a3d04bb14e71335157bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_right.png using Guid(77bdf1e1045a3d04bb14e71335157bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c67b77df96492be5673100c01453b8c2') in 0.009893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_horizontal.png
+  artifactKey: Guid(33437e35642619f4d98fe3a0fc9d004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_horizontal.png using Guid(33437e35642619f4d98fe3a0fc9d004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd5573d0c6dee39e2f28433a2e7fee44') in 0.0072849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_down.png
+  artifactKey: Guid(2f26ad222ee7a104fb2b19892ee2dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_down.png using Guid(2f26ad222ee7a104fb2b19892ee2dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e010a818a6689a2abb819fff042d8e0c') in 0.0064384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021502 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_up.png
+  artifactKey: Guid(0612d9e19f22f2c48b966e8126572e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_l_up.png using Guid(0612d9e19f22f2c48b966e8126572e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6fe85aad6da56ad7641d6b4d4e32358') in 0.007597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_r_down.png
+  artifactKey: Guid(bd7f30af052901848b1ce223ed97c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_r_down.png using Guid(bd7f30af052901848b1ce223ed97c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68d9e7a0d3b83d6130f2a9c990d918b') in 0.0072827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_r_right.png
+  artifactKey: Guid(a26ec1ae65a248e4bb0f569cfef20b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_r_right.png using Guid(a26ec1ae65a248e4bb0f569cfef20b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57b2fb11e6d401fef40cca339368c19e') in 0.006514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.816350 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_top_l.png
+  artifactKey: Guid(b38a55361aa2adc4789a068da47460fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_stick_top_l.png using Guid(b38a55361aa2adc4789a068da47460fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97bf05db869de48aa46dffa7e266c09') in 0.1087022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_r1_alternative.png
+  artifactKey: Guid(6e5b1f20a66a146478635f4734cc3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_r1_alternative.png using Guid(6e5b1f20a66a146478635f4734cc3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf5bcc6b1a709af8a9f53be4f5ebf7e') in 0.0079632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_l2_outline.png
+  artifactKey: Guid(c65bcc105d1ac4d4a90047790f53d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_l2_outline.png using Guid(c65bcc105d1ac4d4a90047790f53d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f104343f0611631e35f921ff878ffe29') in 0.0095941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_l1_outline.png
+  artifactKey: Guid(296687b616e56e542aa76e3421d86aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_l1_outline.png using Guid(296687b616e56e542aa76e3421d86aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '342f6340e59e5e6b723a6a3397672d7e') in 0.0068409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_r1_outline.png
+  artifactKey: Guid(543c69e28b8f66041a19bebd3bc0eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_trigger_r1_outline.png using Guid(543c69e28b8f66041a19bebd3bc0eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc0d4373910a513c1e9d8328fc2b0520') in 0.0067621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.317786 seconds.
+  path: Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_right.png
+  artifactKey: Guid(77bdf1e1045a3d04bb14e71335157bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_input-prompts/PlayStation Series/Double/playstation_dpad_right.png using Guid(77bdf1e1045a3d04bb14e71335157bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c921ed71d2904791396481cf3ba88c35') in 0.009207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5777 unused Assets / (6.2 MB). Loaded Objects now: 6470.
+Memory consumption went from 153.5 MB to 147.3 MB.
+Total: 8.581300 ms (FindLiveObjects: 0.702700 ms CreateObjectMapping: 0.611700 ms MarkObjects: 4.330500 ms  DeleteObjects: 2.935300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5771 unused Assets / (6.1 MB). Loaded Objects now: 6470.
+Memory consumption went from 153.5 MB to 147.4 MB.
+Total: 28.207500 ms (FindLiveObjects: 0.685600 ms CreateObjectMapping: 0.609300 ms MarkObjects: 13.083400 ms  DeleteObjects: 13.827900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.695 seconds
+Domain Reload Profiling: 1359ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5777 unused Assets / (6.5 MB). Loaded Objects now: 6470.
+Memory consumption went from 155.3 MB to 148.8 MB.
+Total: 16.021700 ms (FindLiveObjects: 1.458700 ms CreateObjectMapping: 1.039100 ms MarkObjects: 7.785500 ms  DeleteObjects: 5.737200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5771 unused Assets / (6.6 MB). Loaded Objects now: 6470.
+Memory consumption went from 155.5 MB to 148.8 MB.
+Total: 9.659200 ms (FindLiveObjects: 0.706000 ms CreateObjectMapping: 0.616900 ms MarkObjects: 4.523300 ms  DeleteObjects: 3.812100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5777 unused Assets / (6.3 MB). Loaded Objects now: 6470.
+Memory consumption went from 157.3 MB to 151.0 MB.
+Total: 10.451200 ms (FindLiveObjects: 0.721000 ms CreateObjectMapping: 0.656400 ms MarkObjects: 5.120500 ms  DeleteObjects: 3.952100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5772 unused Assets / (6.4 MB). Loaded Objects now: 6471.
+Memory consumption went from 157.4 MB to 151.1 MB.
+Total: 10.729900 ms (FindLiveObjects: 0.724600 ms CreateObjectMapping: 0.639000 ms MarkObjects: 4.924900 ms  DeleteObjects: 4.439400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 1285ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.3 MB). Loaded Objects now: 6471.
+Memory consumption went from 159.2 MB to 152.9 MB.
+Total: 9.001900 ms (FindLiveObjects: 0.686400 ms CreateObjectMapping: 0.654000 ms MarkObjects: 4.385700 ms  DeleteObjects: 3.274600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5772 unused Assets / (6.9 MB). Loaded Objects now: 6471.
+Memory consumption went from 159.3 MB to 152.5 MB.
+Total: 12.785100 ms (FindLiveObjects: 0.782900 ms CreateObjectMapping: 0.792300 ms MarkObjects: 4.973900 ms  DeleteObjects: 6.234500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.633 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.3 MB). Loaded Objects now: 6471.
+Memory consumption went from 161.1 MB to 154.7 MB.
+Total: 8.808100 ms (FindLiveObjects: 0.739400 ms CreateObjectMapping: 0.668900 ms MarkObjects: 4.187200 ms  DeleteObjects: 3.211800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5772 unused Assets / (6.2 MB). Loaded Objects now: 6471.
+Memory consumption went from 161.2 MB to 154.9 MB.
+Total: 9.350500 ms (FindLiveObjects: 0.860400 ms CreateObjectMapping: 0.689400 ms MarkObjects: 4.663200 ms  DeleteObjects: 3.136300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.5 MB). Loaded Objects now: 6471.
+Memory consumption went from 163.1 MB to 156.6 MB.
+Total: 11.867300 ms (FindLiveObjects: 1.103000 ms CreateObjectMapping: 0.606300 ms MarkObjects: 5.638000 ms  DeleteObjects: 4.518800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.1 MB). Loaded Objects now: 6471.
+Memory consumption went from 165.0 MB to 158.8 MB.
+Total: 10.231600 ms (FindLiveObjects: 0.740200 ms CreateObjectMapping: 0.638400 ms MarkObjects: 4.727300 ms  DeleteObjects: 4.124800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1364ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.6 MB). Loaded Objects now: 6471.
+Memory consumption went from 166.9 MB to 160.3 MB.
+Total: 11.426800 ms (FindLiveObjects: 0.850600 ms CreateObjectMapping: 0.668900 ms MarkObjects: 4.993000 ms  DeleteObjects: 4.912700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1406ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5778 unused Assets / (6.3 MB). Loaded Objects now: 6471.
+Memory consumption went from 168.8 MB to 162.5 MB.
+Total: 11.791600 ms (FindLiveObjects: 0.798500 ms CreateObjectMapping: 0.865000 ms MarkObjects: 5.601300 ms  DeleteObjects: 4.526000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4974.297924 seconds.
+  path: Assets/kenney_platformer-kit/Sample.png
+  artifactKey: Guid(30abec6a8824b004486c32b4105a9af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Sample.png using Guid(30abec6a8824b004486c32b4105a9af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793efb019d66e227a12be26ae78bc67c') in 0.1743548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.456403 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/arrows.fbx
+  artifactKey: Guid(2068919f70ddd5d4ba57632b3d5118f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/arrows.fbx using Guid(2068919f70ddd5d4ba57632b3d5118f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '597d36f165ba6cda1c9baeb011b4a469') in 0.4561488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowQuarter.fbx
+  artifactKey: Guid(23820300c10353d4e8a1b6940a4b0ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowQuarter.fbx using Guid(23820300c10353d4e8a1b6940a4b0ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c894ee9c2d709d0186356359fd69ad9') in 0.0315882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockMoving.fbx
+  artifactKey: Guid(f286c06186215c84db18cbe2b8efde7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockMoving.fbx using Guid(f286c06186215c84db18cbe2b8efde7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e43a2bb7160b40bfed11688df25364') in 0.0350438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockHalf.fbx
+  artifactKey: Guid(76ca50e924f26be48b15addb03c7022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockHalf.fbx using Guid(76ca50e924f26be48b15addb03c7022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a20e58b17568176a7e11ec2e203f8f6') in 0.0289277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowCliffCorner.fbx
+  artifactKey: Guid(0aff4e7341a48484cb4deef1e49e0acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowCliffCorner.fbx using Guid(0aff4e7341a48484cb4deef1e49e0acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ea673fd1679a2ed36bda197f4fce61') in 0.0344596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowHexagonLow.fbx
+  artifactKey: Guid(a562ec92d860a854b9842b55943b4579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowHexagonLow.fbx using Guid(a562ec92d860a854b9842b55943b4579) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a94b8fe6792d78506c2d43e2266a79') in 0.0301906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/barrel.fbx
+  artifactKey: Guid(45bcc1e4cffc4434c8b69f676e4fc7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/barrel.fbx using Guid(45bcc1e4cffc4434c8b69f676e4fc7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b670de463d27d7aa62d35954fe80a05d') in 0.0479025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowLevel.fbx
+  artifactKey: Guid(172267140cf24ca4884b6bccdcb03d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowLevel.fbx using Guid(172267140cf24ca4884b6bccdcb03d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b357a0c1ca2fe5fad21a858737f5d3e6') in 0.028447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockLarge.fbx
+  artifactKey: Guid(819996efbad52eb4194693cc7b3ac256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockLarge.fbx using Guid(819996efbad52eb4194693cc7b3ac256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '556672d28694811e714161ce85d9a038') in 0.0263992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnow.fbx
+  artifactKey: Guid(30097c3fcfad72244900ff74c53b1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnow.fbx using Guid(30097c3fcfad72244900ff74c53b1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc99ad64f7b412b268d65bcfdc2ff6cb') in 0.0232439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowCornerLarge.fbx
+  artifactKey: Guid(eec94a03b30ee544fb0a053d3fd0db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowCornerLarge.fbx using Guid(eec94a03b30ee544fb0a053d3fd0db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d1a88f59c8aa04971855b9bf6dbb67') in 0.0250541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockDirtHalf.fbx
+  artifactKey: Guid(ee9a46d3554fc8646a6ca2cca5d633c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockDirtHalf.fbx using Guid(ee9a46d3554fc8646a6ca2cca5d633c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c10ea7f640a00b208ca482f24f40d571') in 0.0255563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockCurveHalf.fbx
+  artifactKey: Guid(c2d3d0febf9eaba4daad13941ffb8e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockCurveHalf.fbx using Guid(c2d3d0febf9eaba4daad13941ffb8e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5e084165908c6c08084255b6cf90711') in 0.0250481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockCliffCorner.fbx
+  artifactKey: Guid(32cb8d16805573e4b82cb819dc8b56d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockCliffCorner.fbx using Guid(32cb8d16805573e4b82cb819dc8b56d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f62a69b19d1c8fce045edb26568fe7c2') in 0.0259491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockRoundedLow.fbx
+  artifactKey: Guid(f51ed465749fa9c4d9b7921a94d86747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockRoundedLow.fbx using Guid(f51ed465749fa9c4d9b7921a94d86747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '813a00a256f2e05213a92e2c0d5a8ecb') in 0.0243274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockCurve.fbx
+  artifactKey: Guid(c262bb8bcdab143488c09475ef3b15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockCurve.fbx using Guid(c262bb8bcdab143488c09475ef3b15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '599e471417a3cc7e0d7d8e943f9ea0a3') in 0.0277112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowCurveHalf.fbx
+  artifactKey: Guid(f3bee4d28066fdd48845823cd8076dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowCurveHalf.fbx using Guid(f3bee4d28066fdd48845823cd8076dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236faa5861ca10d0c628160be5ba52bc') in 0.0280811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowCornerSmall.fbx
+  artifactKey: Guid(8546df258df3145419e185d12c822176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowCornerSmall.fbx using Guid(8546df258df3145419e185d12c822176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bafd7f0e0123aba8be5bd259f3724e2') in 0.0269507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowHexagon.fbx
+  artifactKey: Guid(f8526b84c109d5048b6f0230c2ed9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowHexagon.fbx using Guid(f8526b84c109d5048b6f0230c2ed9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a14953deaeceed4a99e982efc4b151a') in 0.0400691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowLong.fbx
+  artifactKey: Guid(b0f9902562e5b4d48aa43f59354a7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowLong.fbx using Guid(b0f9902562e5b4d48aa43f59354a7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ca0d25adaa462f7c1a266bda219f12a') in 0.0384825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockDirtRampHalf.fbx
+  artifactKey: Guid(7ffaa2ce3f61fb2459b663f58e7a08bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockDirtRampHalf.fbx using Guid(7ffaa2ce3f61fb2459b663f58e7a08bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3658437a141cbae4ea979641e47a55') in 0.0340639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockCliff.fbx
+  artifactKey: Guid(6a4f4ebfc089fcf409dfb4de6d8ac520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockCliff.fbx using Guid(6a4f4ebfc089fcf409dfb4de6d8ac520) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22d66a3234ce3fecd3f0e56c17456d64') in 0.0377964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.353186 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowRoundedLarge.fbx
+  artifactKey: Guid(ed7af3060920aca418effd8ba1abcbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowRoundedLarge.fbx using Guid(ed7af3060920aca418effd8ba1abcbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62cacee707b7195fdd269c88055a362e') in 0.1334763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/bridgeHalf.fbx
+  artifactKey: Guid(4fdc8c6f441ce014ab97a41237618fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/bridgeHalf.fbx using Guid(4fdc8c6f441ce014ab97a41237618fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f69ec1ef34c501c062dec5c0f525d85') in 0.0381524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/buttonRound.fbx
+  artifactKey: Guid(bb4f84b2669d1e445b88db98b5fe9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/buttonRound.fbx using Guid(bb4f84b2669d1e445b88db98b5fe9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00463d7902374c8b9aab98d588e446f7') in 0.0624135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/bridge.fbx
+  artifactKey: Guid(5397fab0d6d58b64d88ffbf5aeafa8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/bridge.fbx using Guid(5397fab0d6d58b64d88ffbf5aeafa8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89c548d77ddc06bae608ed00b77509b') in 0.0371699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/blockSnowSlope.fbx
+  artifactKey: Guid(9bd0b9c398b9f1a48993950b44463733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/blockSnowSlope.fbx using Guid(9bd0b9c398b9f1a48993950b44463733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '111ba077bcae2d19521354956578c97e') in 0.0386743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/doorLargeOpen.fbx
+  artifactKey: Guid(e385052308419784699a806ad41e43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/doorLargeOpen.fbx using Guid(e385052308419784699a806ad41e43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b16db0fd6f89012db4896119262165') in 0.0361988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/chest.fbx
+  artifactKey: Guid(5bbf8225f33f99c47a3d57bec0a31848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/chest.fbx using Guid(5bbf8225f33f99c47a3d57bec0a31848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b19895dd3136b084fefe2f8808ff1ec1') in 0.0654493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/doorLargeClosed.fbx
+  artifactKey: Guid(e3aff87b4254d664cb9d7308542f0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/doorLargeClosed.fbx using Guid(e3aff87b4254d664cb9d7308542f0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcdcfaf0f94c0037ed898746c4e8ddcf') in 0.0335378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_platformer-kit/Models/FBX format/doorClosed.fbx
+  artifactKey: Guid(d1874b67cc5980f469aa2f742e55e577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/FBX format/doorClosed.fbx using Guid(d1874b67cc5980f469aa2f742e55e577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '714222f7a49bb3535673ea31822aceb2') in 0.0268307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.707 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5793 unused Assets / (6.1 MB). Loaded Objects now: 6557.
+Memory consumption went from 181.2 MB to 175.2 MB.
+Total: 9.153100 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 0.674700 ms MarkObjects: 4.578000 ms  DeleteObjects: 3.185800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 295.807617 seconds.
+  path: Assets/MobileDepthWater/Materials/LegacyDiffuse.mat
+  artifactKey: Guid(854929c6a90467543b32b4c44a6fdb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Materials/LegacyDiffuse.mat using Guid(854929c6a90467543b32b4c44a6fdb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b04f5e3bbf6cb5dac584dcc6ba79504e') in 0.3796734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.906785 seconds.
+  path: Assets/MobileDepthWater/Materials/Water/WaterBoat.mat
+  artifactKey: Guid(92cff562ef8dfa543a3e18ae284be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Materials/Water/WaterBoat.mat using Guid(92cff562ef8dfa543a3e18ae284be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92020889aac7df0ddd534d02e67346c5') in 0.1171186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MobileDepthWater/Materials/Water/WaterGround.mat
+  artifactKey: Guid(16d37c33eb1f38e4fb1cf72191e9ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Materials/Water/WaterGround.mat using Guid(16d37c33eb1f38e4fb1cf72191e9ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a10caa706ce48dfe2e6e5cdf8e386475') in 0.0139595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5793 unused Assets / (5.9 MB). Loaded Objects now: 6580.
+Memory consumption went from 181.9 MB to 176.0 MB.
+Total: 9.421900 ms (FindLiveObjects: 1.096400 ms CreateObjectMapping: 1.168900 ms MarkObjects: 4.303900 ms  DeleteObjects: 2.852000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5793 unused Assets / (5.9 MB). Loaded Objects now: 6580.
+Memory consumption went from 183.7 MB to 177.8 MB.
+Total: 9.677000 ms (FindLiveObjects: 0.829600 ms CreateObjectMapping: 0.713600 ms MarkObjects: 4.832200 ms  DeleteObjects: 3.299600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 292.895791 seconds.
+  path: Assets/MobileDepthWater/Scenes/DemoScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(07be701ed768e8e4d8b55c26f55a556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Scenes/DemoScene/Lightmap-0_comp_light.exr using Guid(07be701ed768e8e4d8b55c26f55a556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cba4beedbe8c98f167bb6d83832276a') in 0.2407454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (667ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5793 unused Assets / (6.3 MB). Loaded Objects now: 6582.
+Memory consumption went from 185.7 MB to 179.4 MB.
+Total: 12.333300 ms (FindLiveObjects: 1.102500 ms CreateObjectMapping: 0.879300 ms MarkObjects: 5.291400 ms  DeleteObjects: 5.059000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 153.515677 seconds.
+  path: Assets/MobileDepthWater/Textures/Water.psd
+  artifactKey: Guid(92b12dd963505404f9025476f49cb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Textures/Water.psd using Guid(92b12dd963505404f9025476f49cb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c264cfe08811a34118dc686b6915fddc') in 0.1564325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MobileDepthWater/Textures/WaterDistortion.psd
+  artifactKey: Guid(f6acd684980920849a180e1c541fb199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Textures/WaterDistortion.psd using Guid(f6acd684980920849a180e1c541fb199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d06141342d65d3edd47ed483853a62') in 0.0168912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.925244 seconds.
+  path: Assets/MobileDepthWater/Models/Bush.fbx
+  artifactKey: Guid(535210f1f9844ba4ab27b9972762c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Models/Bush.fbx using Guid(535210f1f9844ba4ab27b9972762c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ec5bb213cc183dafaad8606ff404b5b') in 0.2743142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MobileDepthWater/Models/LakeIsland.fbx
+  artifactKey: Guid(b690919169dac9349ac86dd59893d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Models/LakeIsland.fbx using Guid(b690919169dac9349ac86dd59893d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50105e7b63df9b984c3c2ed923960cc3') in 0.0483041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MobileDepthWater/Models/Tree.fbx
+  artifactKey: Guid(8dfb3bdf788cbc345a338b5bd53d276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Models/Tree.fbx using Guid(8dfb3bdf788cbc345a338b5bd53d276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d58dd76cd3f608010237af75bce728c') in 0.020264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MobileDepthWater/Models/Island.fbx
+  artifactKey: Guid(371d3425353fbd74f927b386d74d4eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Models/Island.fbx using Guid(371d3425353fbd74f927b386d74d4eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a9c2c108ca2e83df7dcb7d2e7ee7f6') in 0.0392254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
